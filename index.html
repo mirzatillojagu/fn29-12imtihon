@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <img class="img" src="./images/img.png" alt="">
+    <div class="container">
+
+            <form id="jobForm">
+                <h2>Vakansiya ma'lumotlarini kiriting</h2>
+                <div id="sorch">
+                    <label>Logotip URL</label>
+                    <input type="text" id="logoURL" placeholder="Logotip URL manzilini kiriting">
+                    <div class="compname">
+                        <label>Kompaniya nomi</label>
+                        <input type="text" id="companyName" placeholder="Manage">
+                    </div>
+                    <div class="checkbox-group">
+                        <input type="checkbox" id="new"> 
+                        <label id="newName" for="new">NEW!</label>
+                        <input type="checkbox" id="featured"> 
+                        <label for="featured">featured</label>
+                    </div>
+                </div>
+                <div class="label">
+                    <label>Lavozim</label>
+                    <input type="text" id="position" placeholder="Fullstack Developer">
+                </div>
+                
+                <div class="ad">
+                    <label class="add">Vaqt</label>
+                    <label class="add">Ish turi</label>
+                    <label class="add">Joylashuv</label>
+                </div>
+                
+                <div class="select-group">
+                    <select id="time">
+                        <option value="">Tanlang</option>
+                        <option value="1d ago">1d ago</option>
+                        <option value="2d ago">2d ago</option>
+                        <option value="3d ago">3d ago</option>
+                        <option value="4d ago">4d ago</option>
+                    </select>
+                    
+                    <select id="type">
+                        <option value="">Tanlang</option>
+                        <option value="Home">Home</option>
+                        <option value="Onlayn">Onlayn</option>
+                        <option value="Oflayn">Oflayn</option>
+                        <option value="Full Time">Full Time</option>
+                    </select>
+                    
+                    <select id="location">
+                        <option value="">Tanlang</option>
+                        <option value="Russian">Russian</option>
+                        <option value="USA">USA</option>
+                        <option value="Uzbekistan">Uzbekistan</option>
+                    </select>
+                </div>
+                
+                <div class="margin">
+                    <label>Ko'nikmalar</label>
+                </div>
+                <div class="checkbox-group">
+                    <input type="checkbox" id="fullstack"> <label for="fullstack">Fullstack</label>
+                    <input type="checkbox" id="python"> <label for="python">Python</label>
+                    <input type="checkbox" id="midweight"> <label for="midweight">Midweight</label>
+                    <input type="checkbox" id="react"> <label for="react">React</label>
+                </div>
+                
+                <button type="button" onclick="addJob()">Saqlash</button>
+            </form>
+
+        <div id="jobCards" class="cards"></div>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+</html>

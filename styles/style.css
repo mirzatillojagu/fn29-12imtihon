@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #f9f9f9;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 50px auto;
+}
+
+#jobForm{
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.img{
+    width: 100%;
+}
+
+#new{
+    margin: 0px;
+}
+
+form {
+    max-width: 400px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+form h2 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+input, select, button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    font-weight: 800;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card img.logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.company-name {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+.compname{
+    margin-top: 20px;
+}
+
+
+.checkbox-group{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+}
+
+
+
+
+.select-group{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+
+}
+
+
+.ad{
+    margin-top: 20px;
+
+}
+
+
+.position {
+    font-size: 14px;
+    color: #555;
+}
+
+.margin {
+    margin-top: 20px;
+}
+
+.label{
+    margin-top: 20px;
+}
+
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 5px;
+}
+
+
+
+.start{
+    font-weight: 500;
+    color: #7C8F8F;
+    gap: 41px;
+    line-height: 24px;
+    font-size: 18px;
+}
+
+.tag {
+    font-family: 'League Spartan';
+    background-color: #e0f7fa;
+    color: #5CA5A5; 
+    padding: 5px 5px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+
+.tag.featured {
+    font-family: 'League Spartan';
+    background-color: black;
+}
+
+.label{
+    font-weight: 700;
+    font-style: 22px;
+    line-height: 24px;
+    color: #2B3939;
+}
+
+.margintop{
+    margin-top: 20px;
+}
+
+
+.delete-btn {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.delete-btn:hover {
+    background-color: #c0392b;
+}
+
+
